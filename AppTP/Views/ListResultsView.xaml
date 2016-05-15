@@ -1,0 +1,21 @@
+﻿<Page
+    x:Class="AppTP.Views.ListResultsView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:AppTP.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    DataContext="{Binding ListResult, Source={StaticResource Locator}}">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Button x:Name="returnButton" Content="Retour" HorizontalAlignment="Left" Margin="51,43,0,0" VerticalAlignment="Top" Click="Return_Click"/>
+        <ListView SelectedItem="{Binding SelectedResult, Mode=TwoWay}" Name="SerieslistView" HorizontalAlignment="Center" ItemsSource="{Binding Results}" DisplayMemberPath="Name" Margin="152,43,672,10" Width="200"/>
+        <TextBlock x:Name="ResultstextBlock" HorizontalAlignment="Left" Margin="57,109,0,0" TextWrapping="Wrap" Text="Resultats" VerticalAlignment="Top"/>
+    </Grid>
+
+</Page>
