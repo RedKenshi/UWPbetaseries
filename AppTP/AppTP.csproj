@@ -103,7 +103,7 @@
     <Compile Include="Model\API\Show.cs" />
     <Compile Include="Model\API\MovieResponse.cs" />
     <Compile Include="Model\API\ShowResponse.cs" />
-    <Compile Include="Model\Datas\Film.cs" />
+    <Compile Include="Model\Datas\Movie.cs" />
     <Compile Include="Model\Datas\Result.cs" />
     <Compile Include="Model\Datas\Serie.cs" />
     <Compile Include="Model\Managers\MoviesManager.cs" />

@@ -9,7 +9,7 @@
     <SolutionConfiguration>Debug|x86</SolutionConfiguration>
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>ae155735-affc-47f5-96e3-d6d4c6f06834</PackageIdentityName>
-    <IntermediateOutputPath>c:\Users\developer\Documents\Visual Studio 2015\Projects\AppTP\AppTP\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\developer\Documents\Visual Studio 2015\Projects\AppTP\AppTP\obj\x86\Debug\</IntermediateOutputPath>
     <RegisteredManifestChecksum>B64E7DE24E42A72864D39CD297EB0AF28C58EBEADDB6ADB070632D2AE44A61F4</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>ae155735-affc-47f5-96e3-d6d4c6f06834_1.0.0.0_x86__f85tpp7kdwdr8</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>ae155735-affc-47f5-96e3-d6d4c6f06834_f85tpp7kdwdr8!App</RegisteredUserModeAppID>
@@ -19,16 +19,16 @@
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="c:\Users\developer\Documents\Visual Studio 2015\Projects\AppTP\AppTP\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\developer\Documents\Visual Studio 2015\Projects\AppTP\AppTP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-05-13T15:08:25.703</Modified>
+      <Modified>2016-05-15T14:01:32.679</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="c:\Users\developer\Documents\Visual Studio 2015\Projects\AppTP\AppTP\bin\x86\Debug\AppTP.exe">
+    <AppxPackagedFile Include="C:\Users\developer\Documents\Visual Studio 2015\Projects\AppTP\AppTP\bin\x86\Debug\AppTP.exe">
       <PackagePath>entrypoint\AppTP.exe</PackagePath>
-      <Modified>2016-05-13T15:08:21.725</Modified>
+      <Modified>2016-05-15T14:01:27.917</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\developer\.nuget\packages\CommonServiceLocator\1.3.0\lib\portable-net4+sl5+netcore45+wpa81+wp8\Microsoft.Practices.ServiceLocation.dll">
       <PackagePath>Microsoft.Practices.ServiceLocation.dll</PackagePath>
@@ -462,45 +462,45 @@
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
       <Modified>2015-07-22T21:11:12.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\Users\developer\Documents\Visual Studio 2015\Projects\AppTP\AppTP\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\developer\Documents\Visual Studio 2015\Projects\AppTP\AppTP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2016-05-13T06:49:49.926</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\Users\developer\Documents\Visual Studio 2015\Projects\AppTP\AppTP\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\developer\Documents\Visual Studio 2015\Projects\AppTP\AppTP\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
       <Modified>2015-09-20T15:22:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\Users\developer\Documents\Visual Studio 2015\Projects\AppTP\AppTP\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\developer\Documents\Visual Studio 2015\Projects\AppTP\AppTP\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-20T15:22:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\Users\developer\Documents\Visual Studio 2015\Projects\AppTP\AppTP\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\developer\Documents\Visual Studio 2015\Projects\AppTP\AppTP\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-20T15:22:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\Users\developer\Documents\Visual Studio 2015\Projects\AppTP\AppTP\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\developer\Documents\Visual Studio 2015\Projects\AppTP\AppTP\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-20T15:22:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\Users\developer\Documents\Visual Studio 2015\Projects\AppTP\AppTP\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\developer\Documents\Visual Studio 2015\Projects\AppTP\AppTP\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-20T15:22:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\Users\developer\Documents\Visual Studio 2015\Projects\AppTP\AppTP\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\developer\Documents\Visual Studio 2015\Projects\AppTP\AppTP\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-20T15:22:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\Users\developer\Documents\Visual Studio 2015\Projects\AppTP\AppTP\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\developer\Documents\Visual Studio 2015\Projects\AppTP\AppTP\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-20T15:22:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\Users\developer\Documents\Visual Studio 2015\Projects\AppTP\AppTP\bin\x86\Debug\AppTP.xr.xml">
+    <AppxPackagedFile Include="C:\Users\developer\Documents\Visual Studio 2015\Projects\AppTP\AppTP\bin\x86\Debug\AppTP.xr.xml">
       <PackagePath>AppTP.xr.xml</PackagePath>
       <Modified>2016-05-13T13:13:17.210</Modified>
     </AppxPackagedFile>
@@ -508,13 +508,13 @@
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2016-04-10T14:41:32.441</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\Users\developer\Documents\Visual Studio 2015\Projects\AppTP\AppTP\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\developer\Documents\Visual Studio 2015\Projects\AppTP\AppTP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2016-05-13T15:00:12.297</Modified>
+      <Modified>2016-05-15T14:01:30.921</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\Users\developer\Documents\Visual Studio 2015\Projects\AppTP\AppTP\bin\x86\Debug\Core\AppTP.exe">
+    <AppxPackagedFile Include="C:\Users\developer\Documents\Visual Studio 2015\Projects\AppTP\AppTP\bin\x86\Debug\Core\AppTP.exe">
       <PackagePath>AppTP.exe</PackagePath>
-      <Modified>2016-05-13T15:08:25.695</Modified>
+      <Modified>2016-05-15T14:01:32.663</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

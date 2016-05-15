@@ -12,15 +12,16 @@ using System.Windows.Input;
 using System.Net;
 using System.IO;
 using Newtonsoft.Json;
-using AppTP.Model.API;
+using AppTP.Model.Datas;
 using AppTP;
+using AppTP.ViewModel;
 
 namespace AppTP.ViewModel
 {
     public class ListFilmsViewModel : ViewModelBase
     {
-        private ObservableCollection<Model.API.Movie> _films;
-        public ObservableCollection<Model.API.Movie> Films
+        private ObservableCollection<Model.Datas.Movie> _films;
+        public ObservableCollection<Model.Datas.Movie> Films
         {
             get { return _films; }
             set
@@ -64,7 +65,7 @@ namespace AppTP.ViewModel
         public ListFilmsViewModel()
         {
             var dbFilms = new MoviesManager().GetAllFilms();
-            Films = new ObservableCollection<API.Movie>(dbFilms);
+            Films = new ObservableCollection<Model.Datas.Movie>(dbFilms);
 
 
         }

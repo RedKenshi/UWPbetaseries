@@ -1,4 +1,4 @@
-﻿using AppTP.Model.API;
+﻿using AppTP.Model.Datas;
 using AppTP.Model.Datas;
 using AppTP.Views;
 using Newtonsoft.Json;
@@ -15,21 +15,19 @@ namespace AppTP.Model.Managers
 {
     class MoviesManager
     {
-        private static List<API.Movie> _films = new List<API.Movie>();
-        private ObservableCollection<API.Movie> Films;
+        private static List<Datas.Movie> _films = new List<Datas.Movie>();
+        private ObservableCollection<Datas.Movie> Films;
 
         public MoviesManager()
         {
            
-            _films.Add(new API.Movie(2, 2, "Géraldine","titre1","description1"));
-            _films.Add(new API.Movie(3, 3, "Virginie", "titre2", "description2"));
-            _films.Add(new API.Movie(4, 4, "Laure", "titre3", "description3"));
+
      
         }
 
 
 
-        public IEnumerable<API.Movie> GetAllFilms()
+        public IEnumerable<Datas.Movie> GetAllFilms()
         {
             
             return _films;

@@ -1,1 +1,1 @@
-c:\Users\developer\Documents\Visual Studio 2015\Projects\AppTP\AppTP\AppTP.csproj;x86
+C:\Users\developer\Documents\Visual Studio 2015\Projects\AppTP\AppTP\AppTP.csproj;x86
