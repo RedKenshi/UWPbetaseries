@@ -1,5 +1,4 @@
 ﻿using AppTP.Model.Datas;
-using AppTP.Model.Datas;
 using AppTP.Views;
 using Newtonsoft.Json;
 using System;
@@ -13,12 +12,12 @@ using System.Threading.Tasks;
 
 namespace AppTP.Model.Managers
 {
-    class MoviesManager
+    class FilmManager
     {
-        private static List<Datas.Movie> _films = new List<Datas.Movie>();
-        private ObservableCollection<Datas.Movie> Films;
+        private static List<Datas.Film> _films = new List<Datas.Film>();
+        private ObservableCollection<Datas.Film> Films;
 
-        public MoviesManager()
+        public FilmManager()
         {
            
 
@@ -27,7 +26,7 @@ namespace AppTP.Model.Managers
 
 
 
-        public IEnumerable<Datas.Movie> GetAllFilms()
+        public IEnumerable<Datas.Film> GetAllFilms()
         {
             
             return _films;

@@ -13,6 +13,7 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using AppTP.Model.Collector;
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
 
@@ -30,10 +31,12 @@ namespace AppTP
         private void ListSeries_Click(object sender, RoutedEventArgs e)
         {
             Frame.Navigate(typeof(ListSeriesView));
+            GetSerie.get(1);
         }
         private void ListFilms_Click(object sender, RoutedEventArgs e)
         {
             Frame.Navigate(typeof(ListFilmsView));
+            GetFilm.get(1);
         }
         private void ListResults_Click(object sender, RoutedEventArgs e)
         {

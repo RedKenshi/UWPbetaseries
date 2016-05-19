@@ -11,6 +11,6 @@ namespace AppTP.Model.Datas
     public class MovieResponse : BaseAPIResponse
     {
         [JsonProperty("movie")]
-        public Movie Movie { get; set; }
+        public Film Movie { get; set; }
     }
 }

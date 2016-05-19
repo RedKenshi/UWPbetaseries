@@ -99,16 +99,18 @@
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Model\API\BaseAPIResponse.cs" />
-    <Compile Include="Model\API\Movie.cs" />
-    <Compile Include="Model\API\Show.cs" />
+    <Compile Include="Model\API\SessionAPI.cs" />
     <Compile Include="Model\API\MovieResponse.cs" />
     <Compile Include="Model\API\ShowResponse.cs" />
-    <Compile Include="Model\Datas\Movie.cs" />
+    <Compile Include="Model\Collector\GetFilm.cs" />
+    <Compile Include="Model\Collector\GetSerie.cs" />
+    <Compile Include="Model\Datas\Film.cs" />
     <Compile Include="Model\Datas\Result.cs" />
     <Compile Include="Model\Datas\Serie.cs" />
-    <Compile Include="Model\Managers\MoviesManager.cs" />
+    <Compile Include="Model\Managers\FilmManager.cs" />
     <Compile Include="Model\Managers\ResultsManager.cs" />
     <Compile Include="Model\Managers\SeriesManager.cs" />
+    <Compile Include="Model\API\URL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ViewModel\ListFilmsViewModel.cs" />
     <Compile Include="ViewModel\ListResultsViewModel.cs" />

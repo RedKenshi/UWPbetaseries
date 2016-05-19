@@ -10,6 +10,6 @@ namespace AppTP.Model.Datas
     public class ShowResponse : BaseAPIResponse
     {
         [JsonProperty("show")]
-        public Show Show { get; set; }
+        public Serie Serie { get; set; }
     }
 }
