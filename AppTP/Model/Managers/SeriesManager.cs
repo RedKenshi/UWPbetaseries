@@ -13,10 +13,10 @@ namespace AppTP.Model.Managers
 
         static SeriesManager()
         {
-            _series.Add(new Serie(1, "Serie1", "Antoine"));
+            /*_series.Add(new Serie(1, "Serie1", "Antoine"));
             _series.Add(new Serie(2, "Serie2", "Géraldine"));
             _series.Add(new Serie(3, "Serie3", "Virginie"));
-            _series.Add(new Serie(4, "Serie4", "Laure"));
+            _series.Add(new Serie(4, "Serie4", "Laure"));*/
         }
         public IEnumerable<Serie> GetAllSeries()
         {

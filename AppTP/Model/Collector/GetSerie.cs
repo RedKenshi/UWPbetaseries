@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using AppTP.Model.Datas;
 using System.Net;
 using System.IO;
+using Newtonsoft.Json;
 
 namespace AppTP.Model.Collector
 {
@@ -31,8 +32,14 @@ namespace AppTP.Model.Collector
             using (StreamReader streamReader = new StreamReader(response.GetResponseStream()))
             {
                 string json = streamReader.ReadToEnd();
-                System.Diagnostics.Debug.WriteLine(json);
+                dynamic askedSerieD = JsonConvert.DeserializeObject(json);
+                string innerJson = JsonConvert.SerializeObject(askedSerieD.show, Formatting.Indented);
+                askedSerie = JsonConvert.DeserializeObject<Serie>(innerJson);
+
+                askedSerie.print();
             }
         }
     }
 }
+
+

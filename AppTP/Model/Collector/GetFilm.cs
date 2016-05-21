@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using AppTP.Model.Datas;
 using System.Net;
 using System.IO;
+using Newtonsoft.Json;
 
 namespace AppTP.Model.Collector
 {
@@ -13,7 +14,7 @@ namespace AppTP.Model.Collector
     {
         private static Film askedFilm;
 
-        public static Film getFilm(int id) {
+        public static Film get(int id) {
             launchRequest(id);
             return askedFilm;
         }
@@ -31,7 +32,11 @@ namespace AppTP.Model.Collector
             using (StreamReader streamReader = new StreamReader(response.GetResponseStream()))
             {
                 string json = streamReader.ReadToEnd();
-                System.Diagnostics.Debug.WriteLine(json);
+                dynamic askedFilmD = JsonConvert.DeserializeObject(json);
+                string innerJson = JsonConvert.SerializeObject(askedFilmD.movie, Formatting.Indented);
+                askedFilm = JsonConvert.DeserializeObject<Film>(innerJson);
+
+                askedFilm.print();
             }
         }
     }
