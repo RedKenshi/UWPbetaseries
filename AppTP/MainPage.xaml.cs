@@ -31,12 +31,12 @@ namespace AppTP
         private void ListSeries_Click(object sender, RoutedEventArgs e)
         {
             Frame.Navigate(typeof(ListSeriesView));
-            GetSerie.get(1);
+            //GetSerie.get(1);//pour tester
         }
         private void ListFilms_Click(object sender, RoutedEventArgs e)
         {
             Frame.Navigate(typeof(ListFilmsView));
-            GetFilm.get(1);
+            //GetFilm.get(1);//pour tester
         }
         private void ListResults_Click(object sender, RoutedEventArgs e)
         {

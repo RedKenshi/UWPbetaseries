@@ -104,6 +104,7 @@
     <Compile Include="Model\API\ShowResponse.cs" />
     <Compile Include="Model\Collector\GetFilm.cs" />
     <Compile Include="Model\Collector\GetSerie.cs" />
+    <Compile Include="Model\Collector\Search.cs" />
     <Compile Include="Model\Datas\Film.cs" />
     <Compile Include="Model\Datas\Result.cs" />
     <Compile Include="Model\Datas\Serie.cs" />

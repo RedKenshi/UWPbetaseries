@@ -35,8 +35,6 @@ namespace AppTP.Model.Collector
                 dynamic askedSerieD = JsonConvert.DeserializeObject(json);
                 string innerJson = JsonConvert.SerializeObject(askedSerieD.show, Formatting.Indented);
                 askedSerie = JsonConvert.DeserializeObject<Serie>(innerJson);
-
-                askedSerie.print();
             }
         }
     }

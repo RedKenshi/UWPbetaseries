@@ -35,8 +35,6 @@ namespace AppTP.Model.Collector
                 dynamic askedFilmD = JsonConvert.DeserializeObject(json);
                 string innerJson = JsonConvert.SerializeObject(askedFilmD.movie, Formatting.Indented);
                 askedFilm = JsonConvert.DeserializeObject<Film>(innerJson);
-
-                askedFilm.print();
             }
         }
     }
