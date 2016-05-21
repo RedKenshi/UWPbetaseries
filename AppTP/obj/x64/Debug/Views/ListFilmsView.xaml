@@ -1,0 +1,23 @@
+﻿<Page
+    x:Class="AppTP.Views.ListFilmsView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:AppTP.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    DataContext="{Binding ListFilm, Source={StaticResource Locator}}">
+
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Button x:ConnectionId='1' x:Name="returnButton" Content="Retour" HorizontalAlignment="Left" Margin="51,43,0,0" VerticalAlignment="Top"                     />
+        <ListView x:ConnectionId='2' SelectedItem="{Binding SelectedFilm, Mode=TwoWay}" Name="FilmslistView" HorizontalAlignment="Center" ItemsSource="{Binding Films}"  DisplayMemberPath="Title" Margin="152,43,672,10" Width="200"/>
+        <TextBlock x:ConnectionId='3' x:Name="filmsTextblock" HorizontalAlignment="Left" Margin="82,109,0,0" TextWrapping="Wrap" Text="Films" VerticalAlignment="Top"/>
+
+    </Grid>
+</Page>
+
