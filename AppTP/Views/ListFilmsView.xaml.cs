@@ -1,4 +1,5 @@
-﻿using AppTP.Model.Datas;
+﻿using AppTP.Model.Collector;
+using AppTP.Model.Datas;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
@@ -28,6 +29,8 @@ namespace AppTP.Views
         public ListFilmsView()
         {
             this.InitializeComponent();
+            listViewFilms.Items.Add(new Film(1));
+            listViewFilms.Items.Add(new Film(1));
         }
         private void Return_Click(object sender, RoutedEventArgs e)
         {

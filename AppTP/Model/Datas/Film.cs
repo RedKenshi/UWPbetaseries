@@ -26,9 +26,7 @@ namespace AppTP.Model.Datas
         public String similars { get; set; }
         public String characters { get; set; }
 
-        public Film() {
 
-        }
 
         public void print() {
             System.Diagnostics.Debug.WriteLine("ID : " + id + ", titre : " + title + ", titre original : " + original_title);
@@ -44,6 +42,13 @@ namespace AppTP.Model.Datas
             foreach (KeyValuePair < string, string> note in notes){
                 System.Diagnostics.Debug.WriteLine(note.Key + " : " + note.Value);
             }
+        }
+
+        public Film(int Id)
+        {
+
+            this.id = Id;
+
         }
     }
 }

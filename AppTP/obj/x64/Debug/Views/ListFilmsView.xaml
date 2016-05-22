@@ -14,9 +14,16 @@
             <RowDefinition/>
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
-        <Button x:ConnectionId='1' x:Name="returnButton" Content="Retour" HorizontalAlignment="Left" Margin="51,43,0,0" VerticalAlignment="Top"                     />
-        <ListView x:ConnectionId='2' SelectedItem="{Binding SelectedFilm, Mode=TwoWay}" Name="FilmslistView" HorizontalAlignment="Center" ItemsSource="{Binding Films}"  DisplayMemberPath="Title" Margin="152,43,672,10" Width="200"/>
-        <TextBlock x:ConnectionId='3' x:Name="filmsTextblock" HorizontalAlignment="Left" Margin="82,109,0,0" TextWrapping="Wrap" Text="Films" VerticalAlignment="Top"/>
+        <ListView x:ConnectionId='1' SelectedItem="{Binding SelectedFilm, Mode=TwoWay}" Name="FilmslistView" HorizontalAlignment="Center" ItemsSource="{Binding Films}"  DisplayMemberPath="Title" Margin="152,43,672,10" Width="200"/>
+        <RelativePanel HorizontalAlignment="Left" Height="145" VerticalAlignment="Top" Width="157">
+            <Button x:ConnectionId='4' x:Name="returnButton" Content="Retour" HorizontalAlignment="Left" VerticalAlignment="Top"                      Margin="63,45,-63,-45"/>
+            <TextBlock x:ConnectionId='5' x:Name="filmsTextblock" HorizontalAlignment="Left" Margin="94,111,-63,-45" TextWrapping="Wrap" Text="Films" VerticalAlignment="Top"/>
+        </RelativePanel>
+        <RelativePanel HorizontalAlignment="Center" Margin="0,150,0,0" VerticalAlignment="Center">
+            <FlipView x:ConnectionId='2' x:Name="flipViewFilms" VerticalAlignment="Center" Margin="0,0,0,0">
+                <ListView x:ConnectionId='3' x:Name="listViewFilms" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,0,0,0"/>
+            </FlipView>
+        </RelativePanel>
 
     </Grid>
 </Page>

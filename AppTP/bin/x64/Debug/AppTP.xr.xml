@@ -35,6 +35,14 @@
       <RootProperty Name="RowDefinitions" />
     </RootType>
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.ThemeResourceExtension" />
+    <RootType FullName="Windows.UI.Xaml.Controls.RelativePanel">
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Children" />
+      <RootProperty Name="Margin" />
+    </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="Margin" />
@@ -70,6 +78,12 @@
       <RootProperty Name="DisplayMemberPath" />
       <RootProperty Name="Margin" />
       <RootProperty Name="Width" />
+      <RootProperty Name="VerticalAlignment" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.FlipView">
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Items" />
     </RootType>
     <RootType FullName="AppTP.Views.ListFilmsView" />
     <RootType FullName="AppTP.Views.ListResultsView" />

@@ -9,11 +9,13 @@
     DataContext="{Binding Main, Source={StaticResource Locator}}">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <TextBlock x:ConnectionId='1' x:Name="titleBlock" HorizontalAlignment="Left" Margin="350,82,0,0" TextWrapping="Wrap" Text="Bienvenue" VerticalAlignment="Top"/>
-        <Button x:ConnectionId='2' x:Name="seriesButton" Content="Toutes les Series" HorizontalAlignment="Left" Margin="285,220,0,0" VerticalAlignment="Top" Width="207"                         />
-        <Button x:ConnectionId='3' x:Name="filmsButton" Content="Tous les Films" HorizontalAlignment="Left" Margin="285,287,0,0" VerticalAlignment="Top" Width="207"                        />
-        <TextBox x:ConnectionId='4' x:Name="searchBox" HorizontalAlignment="Left" Margin="285,146,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="107"/>
-        <Button x:ConnectionId='5' x:Name="searchButton" Content="Rechercher" HorizontalAlignment="Left" Margin="397,145,0,0" VerticalAlignment="Top" Width="95"                          />
+        <RelativePanel HorizontalAlignment="Center" Height="340" VerticalAlignment="Center" Width="318">
+            <TextBlock x:ConnectionId='1' x:Name="titleBlock" HorizontalAlignment="Left" Margin="123,45,-58.333,-45" TextWrapping="Wrap" Text="Bienvenue" VerticalAlignment="Top"/>
+            <Button x:ConnectionId='2' x:Name="seriesButton" Content="Toutes les Series" HorizontalAlignment="Left" Margin="58,183,-58,-45" VerticalAlignment="Top" Width="207"                         />
+            <Button x:ConnectionId='3' x:Name="filmsButton" Content="Tous les Films" HorizontalAlignment="Left" Margin="58,250,-58,-45" VerticalAlignment="Top" Width="207"                        />
+            <TextBox x:ConnectionId='4' x:Name="searchBox" HorizontalAlignment="Left" Margin="58,109,-58,-45" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="107"/>
+            <Button x:ConnectionId='5' x:Name="searchButton" Content="Rechercher" HorizontalAlignment="Left" Margin="170,108,-58,-45" VerticalAlignment="Top" Width="95"                          />
+        </RelativePanel>
 
     </Grid>
 </Page>

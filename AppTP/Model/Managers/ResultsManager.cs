@@ -13,10 +13,10 @@ namespace AppTP.Model.Managers
 
         static ResultsManager()
         {
-            _results.Add(new Result(1, "Result1", "Antoine"));
-            _results.Add(new Result(2, "Result2", "Géraldine"));
-            _results.Add(new Result(3, "Result3", "Virginie"));
-            _results.Add(new Result(4, "Result4", "Laure"));
+       //     _results.Add(new Result(1, "Result1", "Antoine"));
+      //      _results.Add(new Result(2, "Result2", "Géraldine"));
+      //      _results.Add(new Result(3, "Result3", "Virginie"));
+      //      _results.Add(new Result(4, "Result4", "Laure"));
         }
         public IEnumerable<Result> GetAllResults()
         {
