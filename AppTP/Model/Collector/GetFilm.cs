@@ -28,12 +28,11 @@ namespace AppTP.Model.Collector
         private static void receiveRequest(IAsyncResult result){
             HttpWebRequest request = (HttpWebRequest) result.AsyncState;
             HttpWebResponse response = (HttpWebResponse)request.EndGetResponse(result);
-
-            using (StreamReader streamReader = new StreamReader(response.GetResponseStream()))
-            {
+            using (StreamReader streamReader = new StreamReader(response.GetResponseStream())){
                 string json = streamReader.ReadToEnd();
                 dynamic askedFilmD = JsonConvert.DeserializeObject(json);
                 string innerJson = JsonConvert.SerializeObject(askedFilmD.movie, Formatting.Indented);
+                System.Diagnostics.Debug.WriteLine("innerJson : " + innerJson);
                 askedFilm = JsonConvert.DeserializeObject<Film>(innerJson);
             }
         }

@@ -25,7 +25,7 @@ namespace AppTP.Model
             return requestURL = _baseRoute + bodyRoute + "?id=" + id + "&key=" + SessionAPI.getKey();
         }
 
-        public static String getURL(String type, IList<String> keywords, int nbpp, int order){
+        public static String getURL(String type, String[] keywords, int nbpp, String order){
             String requestURL;
             String bodyRoute = "erreur";
             switch (type)
@@ -38,6 +38,7 @@ namespace AppTP.Model
                     break;
             }
             String formatedKeyWords = String.Join("+",keywords);
+            System.Diagnostics.Debug.WriteLine(_baseRoute + bodyRoute + "?title=" + formatedKeyWords + "&order=" + order + "&nbpp=" + nbpp + "&key=" + SessionAPI.getKey());
             return requestURL = _baseRoute + bodyRoute + "?title=" + formatedKeyWords + "&order=" + order + "&nbpp=" + nbpp + "&key=" + SessionAPI.getKey();
         }
     }

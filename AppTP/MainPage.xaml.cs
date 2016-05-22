@@ -31,16 +31,18 @@ namespace AppTP
         private void ListSeries_Click(object sender, RoutedEventArgs e)
         {
             Frame.Navigate(typeof(ListSeriesView));
-            //GetSerie.get(1);//pour tester
+            GetSerie.get(1);//pour tester
         }
         private void ListFilms_Click(object sender, RoutedEventArgs e)
         {
             Frame.Navigate(typeof(ListFilmsView));
-            //GetFilm.get(1);//pour tester
+            GetFilm.get(1);//pour tester
         }
         private void ListResults_Click(object sender, RoutedEventArgs e)
         {
             Frame.Navigate(typeof(ListResultsView));
+            String[] keywords = new string[] {"you", "me"};
+            Search.get(keywords, 8, "popularity");
         }
     }
 }

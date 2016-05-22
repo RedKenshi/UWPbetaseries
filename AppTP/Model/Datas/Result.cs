@@ -25,5 +25,10 @@ namespace AppTP.Model.Datas
             Name = aFilm.title;
             Type = "film";
         }
+
+        public void print()
+        {
+            System.Diagnostics.Debug.WriteLine("ID : " + Id + ", nom : " + Name + ", type : " + Type );
+        }
     }
 }
